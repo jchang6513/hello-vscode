@@ -19,6 +19,19 @@
         "command": "hello-vscode.hello-clock",
         "title": "Hello Clock"
       }
+    ],
+    "configuration": [
+      {
+        "type": "object",
+        "title": "Hello Clock Setting",
+        "properties": {
+          "conf.view.hour12": {
+            "type": "boolean",
+            "default": true,
+            "description": "Enable hour 12 display"
+          }
+        }
+      }
     ]
   },
   "scripts": {
