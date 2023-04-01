@@ -16,8 +16,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "hello-vscode.hellovscode",
-        "title": "Hello VS Code"
+        "command": "hello-vscode.hello-clock",
+        "title": "Hello Clock"
       }
     ]
   },
